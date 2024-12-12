@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>fadhsjkfhdjkasg</title>
+<style>
+#one{width:350px;
+height:500px;
+border:2px solid red;
+background-color:black;
+color:white;
+margin:50px;}
+
+#two{width:97%;
+height:100px;
+font-size:40px;
+text-align:right;}
+.group{width:100%;
+display:inline-block;}
+.group input{width:20%;
+height:60px;
+float:left;
+margin:6px;
+border-radius:10px;
+color:red;
+font-size:30px;
+font-weight:bold;
+cursor:pointer;
+box-shadow:5px 5px blue;}
+
+form.display{
+display:flex;
+margin:5px;
+width:100%;}
+name.display input{
+text-align:center;
+flex:1;
+font-size:500px;
+box-shadow:none;}
+/**{margin:0;
+
+
+
+</style>
+
+</head>
+<body>
+<h1>calucator</h1>
+<div id="one" >
+<form>
+<div class="display">
+<input type="text" name="display" id="two">
+</div>
+<div class="group">
+<input type="button" value="Ac" onclick="display.value=''">
+<input type="button" value="%" onclick="display.value+='%'">
+<input type="button" value="del" onclick="display.value=''">
+<input type="button" value="/" onclick="display.value='/'">
+</div>
+<div class="group">
+<input type="button" value="7" onclick="display.value+='7'">
+<input type="button" value="8" onclick="display.value+='8'">
+<input type="button" value="9" onclick="display.value+='9'">
+<input type="button" value="*" onclick="display.value+='*'">
+</div>
+<div class="group">
+<input type="button" value="4" onclick="display.value+='4'">
+<input type="button" value="5" onclick="display.value+='5'">
+<input type="button" value="6" onclick="display.value+='5'">
+<input type="button" value="-" onclick="display.value+='-'">
+</div>
+<div class="group">
+<input type="button" value="1" onclick="display.value+='1'">
+<input type="button" value="2" onclick="display.value+='2'">
+<input type="button" value="3" onclick="display.value+='3'">
+<input type="button" value="+" onclick="display.value+='+'">
+</div>
+<div class="group">
+<input type="button" value="00" onclick="display.value+='00'">
+<input type="button" value="0" onclick="display.value+='0'">
+<input type="button" value="." onclick="display.value+='.'">
+<input type="button" value="=" onclick="display.value=eval(display.value);">
+</div>
+</div>
+</form>
+</div>
+</body>
+</html>
+
